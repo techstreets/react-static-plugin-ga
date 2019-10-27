@@ -1,18 +1,16 @@
 {
-  "name": "react-static-plugin-google-tag-manager",
-  "version": "1.0.3",
-  "description": "A react-static plugin allowing you to add the GTM script tag to your page",
+  "name": "react-static-plugin-ga",
+  "version": "1.0.0",
+  "description": "A react-static plugin allowing you to add the GA script tag to your page",
   "keywords": [
     "react-static",
     "plugin",
-    "gtm",
-    "google-tag-manager",
     "google",
     "analytics"
   ],
   "main": "dist/node.api.js",
-  "author": "Yannik Wissner <hello@yannik.im>",
-  "repository": "https://github.com/wappsify/react-static-plugin-google-tag-manager",
+  "author": "Techstreets <admin@techstreets.net>",
+  "repository": "https://github.com/techstreets/react-static-plugin-ga.git",
   "license": "MIT",
   "private": false,
   "scripts": {
