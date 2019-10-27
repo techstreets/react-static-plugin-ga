@@ -1,13 +1,13 @@
-# react-static-plugin-google-tag-manager
+# react-static-plugin-ga
 
-This plugin adds the GTM script tag to your HTML files. You only need to supply the GTM ID.
+A react-static plugin allowing you to add the GA script tag to your page.
 
 ## Installation
 
 In an existing react-static site run:
 
 ```bash
-$ yarn add -D react-static-plugin-google-tag-manager
+$ yarn add react-static-plugin-ga
 ```
 
 Then add the plugin to your `static.config.js`:
@@ -16,20 +16,11 @@ Then add the plugin to your `static.config.js`:
 export default {
   plugins: [
     [
-      'react-static-plugin-google-tag-manager',
+      'react-static-plugin-ga',
       {
-        // example configuration
-        id: 'your-gtm-id-here'
+        id: 'your-ga-id'
       }
     ]
   ]
 };
 ```
-
-## Options
-
-In your `static.config.js`, you should pass configuration options to the plugin.
-
-### `id: string`
-
-Pass your Google Tag Manager ID in here. The plugin will not work without it.
